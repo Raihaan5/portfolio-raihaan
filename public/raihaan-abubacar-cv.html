@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV - Raihaan Abubacar</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --blue: #0b73ff;
+        --purple: #7938f2;
+        --ink: #101827;
+        --muted: #536174;
+        --line: #dce7f7;
+        --soft: #f4f8ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #e9f1fb;
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+      }
+
+      main {
+        width: min(920px, calc(100% - 32px));
+        margin: 32px auto;
+        background: #fff;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 22px 80px rgba(22, 60, 110, 0.18);
+      }
+
+      header {
+        padding: 42px 46px;
+        color: #fff;
+        background:
+          radial-gradient(circle at 86% 18%, rgba(255, 255, 255, 0.2), transparent 170px),
+          linear-gradient(120deg, #06162f, #0b55d8 56%, #7a2df0);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 42px;
+        letter-spacing: 0;
+      }
+
+      header p {
+        margin: 8px 0 0;
+        color: #e6f1ff;
+        font-size: 18px;
+      }
+
+      .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+        margin-top: 24px;
+        font-size: 14px;
+      }
+
+      .contacts span {
+        color: #f3f8ff;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 1fr 0.62fr;
+        gap: 34px;
+        padding: 38px 46px 44px;
+      }
+
+      section {
+        margin-bottom: 28px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--blue);
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 17px;
+      }
+
+      p {
+        margin: 8px 0 0;
+        color: var(--muted);
+      }
+
+      ul {
+        margin: 10px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+      }
+
+      li + li {
+        margin-top: 7px;
+      }
+
+      .item {
+        padding: 16px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .item:first-of-type {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      .side-card {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--soft);
+      }
+
+      .skill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        list-style: none;
+      }
+
+      .skill-list li {
+        margin: 0;
+        padding: 8px 10px;
+        border-radius: 999px;
+        background: #fff;
+        border: 1px solid var(--line);
+        color: #26354a;
+        font-size: 13px;
+      }
+
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        main {
+          width: 100%;
+          margin: 0;
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+
+      @media (max-width: 720px) {
+        header,
+        .content {
+          padding-inline: 24px;
+        }
+
+        .content {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Raihaan Abubacar</h1>
+        <p>Desenvolvedor Web & Sistemas</p>
+        <div class="contacts">
+          <span>Beira, Moçambique</span>
+          <span>+258 87 661 9175</span>
+          <span>teuemail@gmail.com</span>
+          <span>Portfolio profissional</span>
+        </div>
+      </header>
+
+      <div class="content">
+        <div>
+          <section>
+            <h2>Perfil</h2>
+            <p>
+              Estudante do 4º ano de Tecnologias de Informação na Universidade Católica
+              de Moçambique, com foco em desenvolvimento web, sistemas digitais,
+              landing pages e soluções modernas para negócios.
+            </p>
+          </section>
+
+          <section>
+            <h2>Experiência e Evolução</h2>
+            <div class="item">
+              <h3>Desenvolvedor Web & Sistemas</h3>
+              <p class="muted">2025 - Presente</p>
+              <ul>
+                <li>Criação de websites responsivos com React, Next.js, HTML, CSS e JavaScript.</li>
+                <li>Desenvolvimento de sistemas web para gestão, pedidos, reservas e dashboards.</li>
+                <li>Integração de interfaces modernas com foco em performance, clareza e conversão.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <h3>Projetos Acadêmicos e Freelance</h3>
+              <p class="muted">2023 - 2024</p>
+              <ul>
+                <li>Projetos com PHP, Java, MySQL e fundamentos de programação web.</li>
+                <li>Landing pages e sites institucionais para apresentação de serviços.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2>Projetos em Destaque</h2>
+            <div class="item">
+              <h3>Sistema de Gestão de Pedidos</h3>
+              <p>Sistema com painel administrativo, clientes, produtos e pedidos.</p>
+            </div>
+            <div class="item">
+              <h3>Website Empresarial</h3>
+              <p>Site institucional moderno, responsivo e otimizado para SEO.</p>
+            </div>
+            <div class="item">
+              <h3>Landing Page de Produto</h3>
+              <p>Página focada em lançamento e conversão de produto digital.</p>
+            </div>
+          </section>
+        </div>
+
+        <aside>
+          <section class="side-card">
+            <h2>Competências</h2>
+            <ul class="skill-list">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C#</li>
+              <li>MySQL</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </section>
+
+          <section class="side-card">
+            <h2>Formação</h2>
+            <h3>Tecnologias de Informação</h3>
+            <p>4º Ano - Universidade Católica de Moçambique</p>
+          </section>
+
+          <section class="side-card">
+            <h2>Serviços</h2>
+            <ul>
+              <li>Sistemas web personalizados</li>
+              <li>Websites empresariais</li>
+              <li>Landing pages</li>
+              <li>Manutenção e suporte</li>
+            </ul>
+          </section>
+
+          <section class="side-card">
+            <h2>Disponibilidade</h2>
+            <p>Freelancer disponível para novos projetos e parcerias.</p>
+          </section>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
