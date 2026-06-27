@@ -28,8 +28,8 @@ export const projects: PortfolioProject[] = [
     variant: "landing",
   },
   {
-    tag: "MozPay",
-    title: "Sistema",
+    tag: "Sistema",
+    title: "MozPay",
     text: "Plataforma de pagamentos",
     tech: ["Next.js"],
     link: "#",
