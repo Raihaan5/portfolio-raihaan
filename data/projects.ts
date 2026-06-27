@@ -27,4 +27,13 @@ export const projects: PortfolioProject[] = [
     image: "/projects/ratix.png",
     variant: "landing",
   },
+  {
+    tag: "MozPay",
+    title: "Sistema",
+    text: "Plataforma de pagamentos",
+    tech: ["Next.js"],
+    link: "#",
+    image: "/projects/moz.png",
+    variant: "business",
+  },
 ];
