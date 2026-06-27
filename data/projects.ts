@@ -33,7 +33,7 @@ export const projects: PortfolioProject[] = [
     text: "Plataforma de pagamentos",
     tech: ["Next.js"],
     link: "#",
-    image: "/projects/moz.png",
+    image: "/projects/mozpay.png",
     variant: "business",
   },
 ];
