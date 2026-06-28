@@ -16,7 +16,10 @@ export default function Skills() {
         <p>Principais Tecnologias</p>
         <div className="tech-icons">
           {technologies.map(({ icon: Icon, label, className }) => (
-            <div className="tech-tile" key={label}><Icon className={className} /></div>
+            <div className="tech-tile" key={label}>
+              <Icon className={className} />
+              <span>{label}</span>
+            </div>
           ))}
         </div>
         <div className="neon-line" />

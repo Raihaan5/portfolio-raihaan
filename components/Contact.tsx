@@ -23,12 +23,14 @@ export default function Contact() {
         </div>
       </div>
       <form className="contact-form">
+        <input name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="form-honeypot" />
         <div className="form-row">
-          <input name="name" placeholder="Seu nome" aria-label="Seu nome" />
-          <input name="email" type="email" placeholder="Seu email" aria-label="Seu email" />
-          <input name="subject" placeholder="Assunto" aria-label="Assunto" />
+          <input name="name" placeholder="Seu nome" aria-label="Seu nome" required />
+          <input name="email" type="email" placeholder="Seu email" aria-label="Seu email" required />
+          <input name="subject" placeholder="Assunto" aria-label="Assunto" required />
         </div>
-        <textarea name="message" placeholder="Sua mensagem" aria-label="Sua mensagem" />
+        <textarea name="message" placeholder="Sua mensagem" aria-label="Sua mensagem" required />
+        <p className="form-status" role="status" aria-live="polite" />
         <button type="submit">Enviar Mensagem <Send size={16} /></button>
       </form>
       <div className="mail-art lower" aria-hidden="true"><Mail size={120} /></div>

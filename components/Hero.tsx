@@ -24,19 +24,25 @@ export default function Hero() {
       </div>
 
       <div className="hero-visual" aria-hidden="true">
-        <div className="orbit orbit-a" />
-        <div className="orbit orbit-b" />
-        <div className="orbit orbit-c" />
-        <div className="space-shape triangle-one" />
-        <div className="space-shape triangle-two" />
-        <div className="planet">
-          <div className="continent c1" />
-          <div className="continent c2" />
-          <div className="continent c3" />
+        <div className="planet-scene">
+          <div className="planet-halo" />
+          <div className="data-stream stream-a" />
+          <div className="data-stream stream-b" />
+          <div className="data-stream stream-c" />
+          <div className="space-shape triangle-one" />
+          <div className="space-shape triangle-two" />
+          <div className="planet">
+            <div className="orbit orbit-a"><span /></div>
+            <div className="orbit orbit-b"><span /></div>
+            <div className="orbit orbit-c"><span /></div>
+            <div className="continent c1" />
+            <div className="continent c2" />
+            <div className="continent c3" />
+          </div>
+          <div className="planet-base" />
+          <div className="small-dot dot-one" />
+          <div className="small-dot dot-two" />
         </div>
-        <div className="planet-base" />
-        <div className="small-dot dot-one" />
-        <div className="small-dot dot-two" />
       </div>
 
       <div className="scroll-cue"><span /><ArrowDown size={14} /></div>

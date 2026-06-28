@@ -19,6 +19,7 @@ export default function Projects() {
       </div>
       <div
         className={`project-carousel count-${projectSlotCount}${showDesktopProjectControls ? " show-desktop-controls" : ""}${showMobileProjectControls ? " show-mobile-controls" : ""}`}
+        data-projects={JSON.stringify(projects)}
       >
         {showProjectPagination && (
           <button aria-label="Projeto anterior" className="carousel-arrow left" type="button">‹</button>
